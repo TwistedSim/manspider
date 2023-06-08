@@ -8,9 +8,9 @@ import sys
 import traceback
 from time import sleep
 
-from man_spider.lib.logger import listener
-from man_spider.lib.spider import MANSPIDER
-from man_spider.lib.util import bytes_to_human, human_to_int, make_targets
+from manspider.lib.logger import listener
+from manspider.lib.spider import MANSPIDER
+from manspider.lib.util import bytes_to_human, human_to_int, make_targets
 
 # set up logging
 log = logging.getLogger('manspider')
